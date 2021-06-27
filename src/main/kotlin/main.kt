@@ -1,11 +1,8 @@
 fun main() {
-    val grade = (0..10).random()
-    println(grade.getStudentStatus())
-
-//    var t:Int
-//    var x:Int? = null
-//    var o:Int? = 10
-//    t = x
+    var x:Int? = 1
+    var w:Int? = null
+    var t:String? = x!!.getStudentStatus()
+    println(t)
 }
 
 fun Int.getStudentStatus():String{
